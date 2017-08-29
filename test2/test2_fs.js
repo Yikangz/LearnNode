@@ -4,7 +4,7 @@ var fs = require('fs');
 http.createServer(function (req,res) {
     
     res.writeHead(200,{"content-type":"text/html;charset=utf8"});
-    
+
     var randNum = parseInt(Math.random() * 89999) + 10000;
     console.log(randNum);
     //读取文件
