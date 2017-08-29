@@ -4,11 +4,11 @@ var fs = require('fs');
 http.createServer(function (req,res) {
     
     res.writeHead(200,{"content-type":"text/html;charset=utf8"});
-
+    
     var randNum = parseInt(Math.random() * 89999) + 10000;
     console.log(randNum);
     //读取文件
-    fs.readFile('./test2/doc/1.txt','utf8',function(err,data){
+    fs.readFile('./doc/1.txt','utf8',function(err,data){
         if (err) {
             throw err;
         }
@@ -16,12 +16,12 @@ http.createServer(function (req,res) {
     })
     
     //查找一个文件夹，里面的一个文件，如果不存在就创建，并且写入内容
-    if(!fs.existsSync('./test2/doc/abc')) {
+    if(!fs.existsSync('./doc/abc')) {
         fs.mkdirSync('./test2/doc/'+'abc');
         console.log('文件夹创建成功!');
     }
     
-    if (!fs.existsSync('./test2/doc/abc/haha.txt')) {
+    if (!fs.existsSync('./doc/abc/haha.txt')) {
         fs.writeFileSync('./test2/doc/abc/haha.txt','This is Three file');
         console.log('文件创建成功');
     }
