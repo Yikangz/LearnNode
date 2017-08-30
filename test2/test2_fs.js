@@ -3,6 +3,11 @@ var http = require('http');
 var fs = require('fs');
 http.createServer(function (req,res) {
     
+    //不处理小图标
+    if (req.url == '/favicon.ico') {
+        return ;
+    }
+
     res.writeHead(200,{"content-type":"text/html;charset=utf8"});
 
     var randNum = parseInt(Math.random() * 89999) + 10000;
