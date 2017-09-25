@@ -22,6 +22,7 @@
 4. 简单路由 test4
     * 根据路由跳转到相应的页面。
     * 路径不存在,跳转到指定的错误页面。
+    * 根据传入的后缀,返出请求头相应的content-type mime类型 
 
 5. 了解Node.js的包管理 test5
     * node-modules 放在这里面的文件夹名称,可以直接引用。自己设一个npm不存在的模块,比如 abc,放入node-modules里面，可以直接require('abc')引入
