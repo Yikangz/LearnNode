@@ -27,3 +27,7 @@
 5. 了解Node.js的包管理 test5
     * node-modules 放在这里面的文件夹名称,可以直接引用。自己设一个npm不存在的模块,比如 abc,放入node-modules里面，可以直接require('abc')引入
     * npm init 初始化一个package.json
+
+6. 通过原生nodejs写一个简单的post请求 test6
+    * 简易的post请求,  获取表单提交数据
+    * 利用formidable模块实现文件的上传
