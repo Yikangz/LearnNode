@@ -31,3 +31,6 @@
 6. 通过原生nodejs写一个简单的post请求 test6
     * 简易的post请求,  获取表单提交数据
     * 利用formidable模块实现文件的上传
+
+7. 了解express框架 test7
+    * 了解express常用语句,app.set,app.get,app.rander,app.use等 
