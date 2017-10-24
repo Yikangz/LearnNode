@@ -11,7 +11,7 @@ http.createServer(function (req, res) {
         });
 
         req.addListener('end', function () {
-            //console.log(alldate);
+            console.log(alldate);
             var mydata = querystring.parse(alldate);
             console.log(mydata);
             console.log('姓名:'+mydata.name);
