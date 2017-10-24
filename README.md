@@ -33,4 +33,9 @@
     * 利用formidable模块实现文件的上传
 
 7. 了解express框架 test7
-    * 了解express常用语句,app.set,app.get,app.rander,app.use等 
+    * 了解express常用方法,app.set,app.get,app.render,app.use等 
+    * 了解express框架GET、POST请求得到参数与原生node请求的区别
+
+8. 了解Transliteration模块 test8
+    * 了解Transliteration模块常用方法,Transliteration.transliterate(),Transliteration.slugify()。
+   
