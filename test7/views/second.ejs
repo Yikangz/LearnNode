@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <p>简单的表格提交</p>
+    <form action='http://localhost:3000/doget' method="get">
+        <p>
+            姓名:<input type='text' name='name'>
+
+        </p>
+        <p>
+            性别:<input type='radio' name='sex' value='男'>男
+            <input type='radio' name='sex' value='女'>女
+
+        </p>
+        <p>
+            <input type="checkbox" name='hobby' value='打球'>打球
+            <input type="checkbox" name='hobby' value='跑步'>跑步
+            <input type="checkbox" name='hobby' value='游泳'>游泳
+
+        </p>
+        <p>
+            <input type="submit">
+        </p>
+
+    </form>
+
+</body>
+
+</html>
