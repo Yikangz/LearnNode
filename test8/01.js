@@ -45,6 +45,7 @@ app.get('/:canshu', function (req, res) {
     var demo11 = tr.slugify(canshu,{ignore:['您好'],lowercase:false,separator:','}); //您好,世界  => 您好Shi,Jie
     console.log('demo10 ' + demo11);
 
+    console.log(req.route);
 
     res.send('成功');
 

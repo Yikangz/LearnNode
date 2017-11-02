@@ -1,0 +1,15 @@
+{
+  "name": "test9",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Croutes.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mrk",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^2.5.7",
+    "express": "^4.16.2"
+  }
+}

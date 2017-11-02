@@ -2,7 +2,7 @@ var express = require('express');
 var app = express();
 
 app.get('/admin/login', function (req, res) {
-    console.log('222222222222')
+    console.log('222222222222');
     res.send('管理员登录');
 });
 
