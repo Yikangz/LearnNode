@@ -40,7 +40,7 @@
     * 了解Transliteration模块常用方法,Transliteration.transliterate(),Transliteration.slugify()。
 
 9. 使用express框架,编写一个小案例(小小相册)。
-    * 需求:可以自由选择上传的文件目录,并且浏览照片。
+    * 需求:可以自由选择上传的文件目录上传文件,并且浏览照片。
     * 使用bootstrap作为前端页面端架。
     * 
     

@@ -11,17 +11,14 @@ app.set("view engine","ejs");
 app.use(express.static('./public'));
 app.use(express.static('./uploads'));
 
-app.use('/demo',function(req,res){
-    res.render("demo",{
-        PhoneArray:['123','456','789']
-    });
-})
+
 
 app.get('/',Croutes.showIndex);
 
 app.get('/:xiangce',Croutes.showPhone);
 
-
+app.get('/up',Croutes.showUpDir);
+app.post('/up',Croutes.doPost);
 
 app.use(function(req,res){
     
