@@ -66,8 +66,8 @@ exports.doPost = function (req, res) {
     form.uploadDir = path.normalize(__dirname + '/../temp/');
 
     form.parse(req, function (err, fields, files, next) {
-        console.log('1111' + fields);
-        console.log('2222' + files);
+        //console.log('1111' + fields);
+       // console.log('2222' + files);
         if (err) {
             next();
             return;
