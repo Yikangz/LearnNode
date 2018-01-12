@@ -36,6 +36,7 @@ exports.getAllPhoneName = function (callback) {
 }
 
 
+
 exports.getAllphoto = function (photoName, callback) {
 
     fs.readdir('./uploads/' + photoName, function (err, files) {
@@ -45,7 +46,7 @@ exports.getAllphoto = function (photoName, callback) {
             return
         }
 
-        var allPhoto = [];//所有图片数组
+        var allPhoto = [];//所有图片数组。
 
         //遍历
         (function iterator(i) {
